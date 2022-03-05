@@ -1,0 +1,74 @@
+.main
+{
+    background-color: darkgrey;
+}
+
+.navbar{
+    background-color: darkslategrey;
+    display: flex;
+}
+
+.middle{
+    display: flex;
+}
+
+.sidebar{
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.central{
+
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding-left : 100px ;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: chocolate;
+
+}
+
+.picture img{
+ width: 220px;
+ height: 220px;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+}
+
+.details img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar input{
+    align-content: center;
+}
+
+.row1 {
+    display: flex;   
+}
+
+.row2 {
+    display: flex;
+    
+}
+
+.part{
+    display: flex;
+    flex-direction: column;
+}
