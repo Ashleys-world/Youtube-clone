@@ -1,11 +1,16 @@
 .main
 {
-    background-color: darkgrey;
+    background-color: white;
     font-family: 'Roboto', sans-serif;
 }
 
+.main a{
+    text-decoration: none;
+    color: black;
+}
+
 .navbar{
-    background-color: darkslategrey;
+    background-color: white;
     display: flex;
 }
 
@@ -28,7 +33,7 @@
 .navbar form {
     padding-left: 200px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
     align-self: center;
     display: flex;
 }
@@ -36,11 +41,12 @@
 .navbar form input {
     height: 35px;
     width: 480px;
+    border: 2px solid black
 }
 
 .navbar form input.btn{
-    height: 35px;
-    width: 35px;
+    height: 31px;
+    width: 31px;
     padding-right: 20px;
 }
 
@@ -49,9 +55,9 @@
 }
 
 .navbar form .right-btns input.btn1 {
-    height: 35px;
-    width: 35px;
-    border-radius: 50%;
+    height: 31px;
+    width: 31px;
+    border: none;
 }
 
 .middle{
@@ -59,14 +65,14 @@
 }
 
 .sidebar{
-    background-color: teal;
+    background-color: white;
     display: flex;
     flex-direction: column;
     padding: 70px;
 }
 
 .sidebar .part{
-    background-color: indigo;
+    background-color: white;
     padding-top: 5px;
     padding-bottom: 16px;
     padding-left: 58px;
@@ -75,6 +81,7 @@
     margin-bottom: 78px;
     margin-left: -64px;
     margin-right: -50px;
+    border-bottom: 1px solid grey ;
 }
 .sidebar .part img{
     width: 30px;
@@ -84,7 +91,39 @@
     margin-bottom: -8px;
 }
 
+.sidebar .part2{
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 16px;
+    padding-left: 58px;
+    padding-right: 52px;
+    margin-top: -60px;
+    margin-bottom: 78px;
+    margin-left: -64px;
+    margin-right: -50px;
+    border-bottom: 1px solid grey ;
+}
+.sidebar .part2 img{
+    width: 30px;
+    height: 30px;
+    margin-left: -40px;
+    margin-top: 5px;
+    margin-bottom: -8px;
+    border-radius: 50%;
+}
+
+.sidebar .part2 a{
+    display: inline ;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 12px;
+}
+
 .sidebar .part a{
+    display: inline ;
     padding-top: 5px;
     padding-bottom: 2px;
     padding-left: 2px;
@@ -97,7 +136,9 @@
     display: flex;
     flex-direction: row;
     padding-bottom: 8px;
-    background-color: pink;
+    background-color: white;
+    border-bottom: 1px solid grey ;
+    border-top: 1px solid grey ;
 }
 
 .smallbar a{
@@ -107,26 +148,26 @@
     width: fit-content;
     height: 5px;
     border-radius: 25px;
-    background-color: chartreuse;
+    background-color: white;
     margin-left: 8px;
     margin-top: 8px;
 }
 
 .central{
 
-    background-color: blue;
+    background-color: white;
     display: flex;
     flex-direction: column;
     padding-left : 50px ;
     padding-right: 50px;
-    padding-top: 11px;
+    padding-top: 8px;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    border: chocolate;
-    padding: 5px;
+    border: white;
+    padding: 13px 5px 5px 11px;
 
 }
 
@@ -138,12 +179,16 @@
 .details{
     display: flex;
     flex-direction: row;
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px -5px 2px;
 }
 
 .details img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
 }
 
 .data{
@@ -152,7 +197,7 @@
     height: 90px;
     padding-left: 10px;
     padding-bottom: 10px;
-    margin-top: -13px;
+    margin-top: -9px;
 }
 
 .navbar input{
