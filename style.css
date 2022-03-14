@@ -45,19 +45,46 @@
 }
 
 .navbar form input.btn{
+    height: 29px;
+    width: 30px;
+    padding: 0px 2px 2px 3px;
+    margin: 0px 2px -1px -2px;
+    background-color: silver;
+}
+
+.navbar form input.btn2{
     height: 31px;
     width: 31px;
-    padding-right: 20px;
+    padding: -1px 2px 2px 2px;
+    margin: 0px 3px 1px 8px;
+    border-radius: 50%;
+    background-color: silver;
 }
 
 .navbar form .right-btns {
-    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+    padding: 2px 2px 2px 2px;
+    margin: -1px 2px 2px 122px;
 }
 
 .navbar form .right-btns input.btn1 {
     height: 31px;
     width: 31px;
+    padding: 2px 2px 2px 2px;
+    margin: 0px 10px 2px 5px;
     border: none;
+}
+
+.navbar p{
+    border: 2px solid white;
+    width: 15px;
+    height: 15px;
+    margin: 6px 9px 3px 0px;
+    padding: 9px 11px 11px 11px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
 }
 
 .middle{
@@ -122,6 +149,11 @@
     margin-left: 12px;
 }
 
+.sidebar .part2 p{
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+}
+
 .sidebar .part a{
     display: inline ;
     padding-top: 5px;
@@ -148,7 +180,7 @@
     width: fit-content;
     height: 5px;
     border-radius: 25px;
-    background-color: white;
+    background-color: silver;
     margin-left: 8px;
     margin-top: 8px;
 }
@@ -159,7 +191,7 @@
     display: flex;
     flex-direction: column;
     padding-left : 50px ;
-    padding-right: 50px;
+    padding-right: 40px;
     padding-top: 8px;
 }
 
